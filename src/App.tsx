@@ -62,7 +62,7 @@ hover:scale-110
 transition
 "
 >
-🍔
+{isOpen ? "✕" : "🍔"}
 </button>
 
 {isOpen && (
